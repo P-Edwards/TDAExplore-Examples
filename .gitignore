@@ -1,0 +1,6 @@
+*.svg
+*.png
+**/computation_results/*
+*output_logs*
+*slurm_wrapper.sh
+TDAExplore-ML*
