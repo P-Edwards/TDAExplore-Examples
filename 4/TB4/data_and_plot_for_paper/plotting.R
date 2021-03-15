@@ -1,6 +1,6 @@
-load("./tb4_plotting.RData")
+load("../../radial_representatives_updated.RData")
+plotting_name_stem <- "tb4kd"
 image_results_directory <- "."
-plotting_name_stem <- "tb4"
 source("../../plot_existing.R")
 
 

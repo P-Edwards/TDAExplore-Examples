@@ -1,6 +1,6 @@
-load("./arp_plotting.RData")
+load("../../radial_representatives_updated.RData")
+plotting_name_stem <- "arp_ctrl"
 image_results_directory <- "."
-plotting_name_stem <- "arp"
 source("../../plot_existing.R")
 
 
