@@ -1,0 +1,3 @@
+experiment_name,image_directories,directory_classes,radius_of_patches,data_results_directory
+bbbc016_,../../../data/BBBC016_v1_images/high,high,15,computation_results
+,../../../data/BBBC016_v1_images/low,low,,

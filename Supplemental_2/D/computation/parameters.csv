@@ -1,7 +1,0 @@
-experiment_name,image_directories,directory_classes,data_results_directory
-aggregated_controls,../../../data/arp/ctrl_689/whole,arp_ctrl_689,computation_results
-,../../../data/cofilin/cofilin_ctrls_whole,cofilin_ctrl,
-,../../../data/mena_whole_only/ap4,mena_ctrl_ap4,
-,../../../data/gene/ctrl/whole,pfn1ko_ctrl,
-,../../../data/jas/Ctrl,jasp_ctrl,
-,../../../data/tb4kd/ctrlkd/whole,tb4kd_ctrl,

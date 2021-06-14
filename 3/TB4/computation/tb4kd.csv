@@ -1,3 +1,0 @@
-experiment_name,image_directories,directory_classes,radius_of_patches,data_results_directory
-tb4kd_,../../../data/tb4kd/ctrlkd/whole,CTRL,75,computation_results
-,../../../data/tb4kd/tb4kd/whole,TB4-KD,,

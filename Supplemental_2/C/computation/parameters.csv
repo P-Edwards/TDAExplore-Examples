@@ -1,3 +1,0 @@
-experiment_name,image_directories,directory_classes,radius_of_patches,number_of_cores,data_results_directory
-ctrl_v_ctrl,../../../data/ctrl_split/split_1,Group 1,75,32,computation_results
-,../../../data/ctrl_split/split_2,Group 2,,,

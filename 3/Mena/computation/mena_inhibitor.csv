@@ -1,3 +1,0 @@
-experiment_name,image_directories,directory_classes,radius_of_patches,data_results_directory
-mena,../../../data/mena_whole_only/ap4,CTRL_AP4,75,computation_results
-,../../../data/mena_whole_only/fp4,CTRL_FP4,,

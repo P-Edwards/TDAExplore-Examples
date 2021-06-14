@@ -7,7 +7,7 @@ Edwards](https://sites.nd.edu/parker-edwards)
 Description
 -----------
 
-Examples for producing the figures in [paper placeholder](https://sites.nd.edu/parker-edwards) [TDAExplore](https://github.com/P-Edwards/TDAExplore). 
+Examples for producing the figures in [TDAExplore: quantitative image analysis through topology-based machine learning](https://doi.org/10.1101/2021.06.13.448249).
 
 Version 1.0.0
 -------------
@@ -20,7 +20,7 @@ External requirements
 
 Installation
 ---------------------------
-The examples expect an installation of TDAExplore-ML in the root directory, even if you've installed TDAExplore-ML before.
+The examples expect an installation of TDAExplore-ML in this repository's root directory, even if you've installed TDAExplore-ML before.
 
 ``` sh
 	git clone https://github.com/P-Edwards/TDAExplore-ML.git 
@@ -35,7 +35,7 @@ curl url/to/data/source.zip | tar -x
 
 Usage
 ------
-The package includes a directory for data-based figures in [paper placeholder](https://sites.nd.edu/parker-edwards). For every figure directory, you can run
+The package includes a directory for data-based figures in the TDAExplore [manuscript](https://doi.org/10.1101/2021.06.13.448249). For every figure directory, you can run
 ```sh
 cd <figure directory>/data_and_plot_for_paper
 chmod +x plotting.sh
@@ -49,7 +49,7 @@ cd <figure_directory>/computation
 chmod +x compute.sh
 ./compute.sh 8
 ```
-Computation results (including new plots) will be placed in `computation/computation_results`. Note that several computations are quite intensive, particularly those in Supplemental 1 and Supplemental 2 (AB)
+Computation results (including new plots) will be placed in `computation/computation_results`. Note that several computations are quite intensive, particularly those with repeated instances of cross validation. 
 
 
 Highlighted examples
@@ -57,8 +57,8 @@ Highlighted examples
 Several of the computations provide illustrative examples of TDAExplore-ML's interface. In all cases the relevant file for the Figure is `computation/compute.sh`. 
 
 * Figure 1C - Generating a mask for a single image.
-* Figure 4 - Generating "line scan" summaries from circular images
-* Supplemental 2D - Generating summaries and extracting scores trained from a different run.
+* Masks - Generating "line scan" summaries from circular images
+* additional_supplementary/S3-E - Generating summaries and extracting scores trained from a different run.
 
 
 License
