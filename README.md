@@ -7,7 +7,8 @@ Edwards](https://sites.nd.edu/parker-edwards)
 Description
 -----------
 
-Examples for producing the figures in [TDAExplore: quantitative image analysis through topology-based machine learning](https://doi.org/10.1101/2021.06.13.448249).
+Examples for producing the figures in [TDAExplore: Quantitative analysis of fluorescence microscopy images through topology-based machine learning](https://doi.org/10.1016/j.patter.2021.100367).
+
 
 Version 1.0.0
 -------------
@@ -27,7 +28,7 @@ The examples expect an installation of TDAExplore-ML in this repository's root d
 ```
 Follow the installation instructions for TDAExplore-ML if you have not previously.
 
-If you would like to re-run computations rather than use pre-computed results, download the data directory [data placeholder](https://sites.nd.edu/parker-edwards). Place the folder `data/` in this project's root directory. Alternatively:
+If you would like to re-run computations rather than use pre-computed results, download the data directory [here](https://dx.doi.org/doi:10.7274/r0-6f3n-2y28). This file is large: approximately 5GiB. Unpack the archive and place the folder `data/` in this project's root directory. Alternatively:
 
 ```sh
 curl url/to/data/source.zip | tar -x
@@ -35,7 +36,7 @@ curl url/to/data/source.zip | tar -x
 
 Usage
 ------
-The package includes a directory for data-based figures in the TDAExplore [manuscript](https://doi.org/10.1101/2021.06.13.448249). For every figure directory, you can run
+The package includes a directory for data-based figures in the TDAExplore [manuscript](https://doi.org/10.1016/j.patter.2021.100367). For every figure directory, you can run
 ```sh
 cd <figure directory>/data_and_plot_for_paper
 chmod +x plotting.sh

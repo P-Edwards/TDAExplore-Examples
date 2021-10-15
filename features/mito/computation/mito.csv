@@ -1,3 +1,3 @@
 experiment_name,image_directories,directory_classes,radius_of_patches,image_results_directory,data_results_directory
-mito_DMSO_v_FCCP,../../../data/mito/DMSO,DMSO,75,computation_results,computation_results
-,../../../data/mito/FCCP,FCCP,,,
+mito_DMSO_v_FCCP,../../../data/FCCP/DMSO,DMSO,75,computation_results,computation_results
+,../../../data/FCCP/FCCP,FCCP,,,
